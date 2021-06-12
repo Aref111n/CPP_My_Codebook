@@ -1,6 +1,7 @@
 /*
 In graph theory, the complement or inverse of a graph G1 is a graph G2 on the same vertices such that two distinct vertices of G2 are adjacent if and only if they are not 
 adjacent in G1. Given two graph G1 and G2, find if G2 is a complement pf G1.
+....................................................
 sample input 1:
 4 4
 1 2
@@ -13,6 +14,7 @@ sample input 1:
 3 2
 sample output:
 NO
+....................................................
 sample input 2:
 4 10
 1 2
@@ -30,6 +32,7 @@ sample input 2:
 4 3
 sample output:
 YES
+......................................................
 sample input 3:
 4 10
 1 2
@@ -48,6 +51,7 @@ sample input 3:
 4 4
 sample output:
 NO
+.........................................................
 */
 #include<bits/stdc++.h>
 using namespace std;

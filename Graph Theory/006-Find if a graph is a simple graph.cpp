@@ -1,5 +1,6 @@
 /*
-Simple graph has no self loops or multiple edges. Given n= number of vertex and m=number of edges and in the next m line, all the edges a b, find if the graph is a simple graph.
+Simple graph has no self loops or multiple edges. 
+Given n= number of vertex and m=number of edges and in the next m line, all the edges a b, find if the graph is a simple graph.
 ...........................
 sample input 1:
 6 7

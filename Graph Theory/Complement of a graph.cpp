@@ -1,5 +1,6 @@
 /*
-In graph theory, the complement or inverse of a graph G is a graph H on the same vertices such that two distinct vertices of H are adjacent if and only if they are not adjacent in G.
+In graph theory, the complement or inverse of a graph G1 is a graph G2 on the same vertices such that two distinct vertices of G2 are adjacent if and only if they are not 
+adjacent in G1. Given two graph G1 and G2, find if G2 is a complement pf G1.
 sample input 1:
 4 4
 1 2

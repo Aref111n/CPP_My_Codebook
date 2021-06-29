@@ -2,7 +2,6 @@
 A graph is said to be regular or K-regular if all its vertices have the same degree K. A graph whose all vertices have degree 2 is known as a 2-regular graph.
 - A regular graph can be disconnected
 - 0-regular graphs have 0 edges
-- A tree can't be a regular graph
 
 Given necessary info about a graph with n vertex and m edges, find if the graph is a k-regular graph. Also print the value of k.
 ............................

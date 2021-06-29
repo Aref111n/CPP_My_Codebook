@@ -16,6 +16,6 @@ such as in this sample:<br>
 5 8
 5 4
 ```
-we can colour it with only 3.<br>
-[]()
-colours where this method answer 4.
+we can colour it with only using 3 colour.<br>
+![min_colour](graph_coloring_sample1.png) <br>
+Where this method answer 4.

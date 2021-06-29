@@ -1,7 +1,3 @@
-/*
-Greedy approach doesn't always answer the minimum colour. Sometime it may fail.
-*/
-
 #include<bits/stdc++.h>
 
 using namespace std;

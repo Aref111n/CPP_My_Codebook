@@ -33,7 +33,7 @@ Sample input 3:
 5 6
 output:
 No
-/*
+*/
 
 #include<bits/stdc++.h>
 using namespace std;

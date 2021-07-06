@@ -1,3 +1,8 @@
+/*
+Hamiltonian path is a path in an undirected or directed graph that visits each vertex exactly once.
+Below implementation is just my idea. And I found it ok till now. If you find it is not working, plz inform me.
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 typedef long long ll;

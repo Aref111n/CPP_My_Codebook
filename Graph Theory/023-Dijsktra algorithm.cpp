@@ -49,7 +49,7 @@ void dijsktra(int v)
 
     d[v] = 0;
     int u;
-    priority_queue<pair<int,int>, vector<pair<int,int> >, less<pair<int,int> > > pq;
+    priority_queue<pair<int,int>, vector<pair<int,int> >, greater<pair<int,int> > > pq;
     pq.push({d[v], v});
 
     while(pq.size())

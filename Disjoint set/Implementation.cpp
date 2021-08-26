@@ -58,12 +58,14 @@ void make_set(ll v)
     level[v]=0;
 
 }
+
 ll find_root(ll v)
 {
-    if(v!=parent[v])
-        parent[v]=find_root(parent[v]); //path compression by recursive call
-    return parent[v];
+    while(v != parent[v])
+        v = parent[v] ;
+    return v ;
 }
+
 void union_set(ll p, ll q)
 {
     ll x = find_root(p);

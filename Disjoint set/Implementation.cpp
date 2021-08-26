@@ -73,12 +73,14 @@ void union_set(ll p, ll q)
     if(x==y)
         return;
     if(level[x]>level[y])
+    {
         parent[y]=x;
+        level[x] += level[y];
+    }
     else
     {
         parent[x]=y;
-        if(level[x]==level[y])
-            level[y]++;
+        level[y] += level[x];
     }
 }
 

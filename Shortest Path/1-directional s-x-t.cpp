@@ -1,3 +1,15 @@
+/*
+This code is the solution of Problem E, NGPC 2019.
+https://toph.co/p/fortis-fortuna-adiuvat
+Here we have to go from node s to node t via node x.
+And the graph is directed.
+If the graph would be undirected, we would do the following: 
+dijsktra(x) 
+d[s]+d[t]
+But as it is directed, this approach would not work. We will get x to t by dijsktra(x) 
+but can't get s to x.
+So what i did is stored every edge with reverse direction and again did dijkstra(x)
+*/
 //BISMILLAHIR RAHMANIR RAHIM
 //INNALLAHA_MA_AS_SABIRIN
  
